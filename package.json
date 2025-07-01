@@ -1,0 +1,28 @@
+{
+  "name": "prospec",
+  "version": "0.1.0",
+  "description": "Prompt testing framework for LLM CLI tools like Claude Code.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "prospec": "./dist/cli.js"
+  },
+  "scripts": {
+    "dev": "ts-node src/run.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["prompt", "llm", "testing", "cli", "claude"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {}
+}
